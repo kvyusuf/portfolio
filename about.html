@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Saya - Portfolio Kahfi</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">About Me</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        ☰
+      </div>
+    </nav>
+  </header>
+  <div class="overlay" id="overlay"></div>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="about-container fade-in">
+      <div class="about-img">
+        <img src="img/kahfi.png" alt="Foto Kahfi">
+      </div>
+      <div class="about-text">
+        <h2>Tentang Saya</h2>
+        <p>
+          Halo, saya <strong>Kahfi</strong>! Seorang desainer grafis dan web enthusiast yang suka
+          bikin karya kreatif dan solutif. Saya percaya desain bukan cuma tentang estetika,
+          tapi juga komunikasi yang efektif. Selain itu, saya juga nyemplung ke web desain
+          & video editing buat ngasih value lebih di setiap project.
+        </p>
+        <a href="#skills" class="btn">Software Skills</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills-section fade-in" id="skills">
+    <h2>Software Skill</h2>
+    <div class="skills-container">
+      <div class="skill-category">
+        <h3>Desain Grafis</h3>
+        <div class="skill-bar">
+          <span>Photoshop</span>
+          <div class="bar">
+            <div class="fill" data-skill="85"></div>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <span>Illustrator</span>
+          <div class="bar">
+            <div class="fill" data-skill="80"></div>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <span>Corel Draw</span>
+          <div class="bar">
+            <div class="fill" data-skill="70"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Web Design</h3>
+        <div class="skill-bar">
+          <span>HTML</span>
+          <div class="bar">
+            <div class="fill" data-skill="90"></div>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <span>CSS</span>
+          <div class="bar">
+            <div class="fill" data-skill="80"></div>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <span>JavaScript</span>
+          <div class="bar">
+            <div class="fill" data-skill="60"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Video Editing</h3>
+        <div class="skill-bar">
+          <span>Premiere Pro</span>
+          <div class="bar">
+            <div class="fill" data-skill="80"></div>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <span>After Effects</span>
+          <div class="bar">
+            <div class="fill" data-skill="70"></div>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <span>CapCut</span>
+          <div class="bar">
+            <div class="fill" data-skill="85"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Office</h3>
+        <div class="skill-bar">
+          <span>MS Word</span>
+          <div class="bar">
+            <div class="fill" data-skill="90"></div>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <span>MS Excel</span>
+          <div class="bar">
+            <div class="fill" data-skill="85"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
